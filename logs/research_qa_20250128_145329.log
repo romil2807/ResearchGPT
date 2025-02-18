@@ -1,0 +1,428 @@
+2025-01-28 14:53:31,582 - research_qa - INFO - Found 676 PDF files to process
+2025-01-28 14:53:31,690 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_ccropsci1982.0011183X002200040019x.pdf: name 're' is not defined
+2025-01-28 14:53:31,749 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100030004x.pdf: name 're' is not defined
+2025-01-28 14:53:31,849 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100050003x.pdf: name 're' is not defined
+2025-01-28 14:53:31,915 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100050020x.pdf: name 're' is not defined
+2025-01-28 14:53:31,983 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100060001x.pdf: name 're' is not defined
+2025-01-28 14:53:31,983 - research_qa - INFO - Processed batch 1 of 136
+2025-01-28 14:53:32,146 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100060005x.pdf: name 're' is not defined
+2025-01-28 14:53:32,265 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100060026x.pdf: name 're' is not defined
+2025-01-28 14:53:32,374 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200010014x.pdf: name 're' is not defined
+2025-01-28 14:53:32,420 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200010019x.pdf: name 're' is not defined
+2025-01-28 14:53:32,485 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200010020x.pdf: name 're' is not defined
+2025-01-28 14:53:32,485 - research_qa - INFO - Processed batch 2 of 136
+2025-01-28 14:53:32,582 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200020031x.pdf: name 're' is not defined
+2025-01-28 14:53:32,665 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200020035x.pdf: name 're' is not defined
+2025-01-28 14:53:32,734 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200030019x.pdf: name 're' is not defined
+2025-01-28 14:53:32,766 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200030027x.pdf: name 're' is not defined
+2025-01-28 14:53:32,816 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200030029x.pdf: name 're' is not defined
+2025-01-28 14:53:32,816 - research_qa - INFO - Processed batch 3 of 136
+2025-01-28 14:53:32,865 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200040002x.pdf: name 're' is not defined
+2025-01-28 14:53:32,962 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200040022x.pdf: name 're' is not defined
+2025-01-28 14:53:33,015 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200040027x.pdf: name 're' is not defined
+2025-01-28 14:53:33,132 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200050009x.pdf: name 're' is not defined
+2025-01-28 14:53:33,240 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200050010x.pdf: name 're' is not defined
+2025-01-28 14:53:33,240 - research_qa - INFO - Processed batch 4 of 136
+2025-01-28 14:53:33,266 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200050027x.pdf: name 're' is not defined
+2025-01-28 14:53:33,374 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200060008x.pdf: name 're' is not defined
+2025-01-28 14:53:33,478 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300010012x.pdf: name 're' is not defined
+2025-01-28 14:53:33,646 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300010019x.pdf: name 're' is not defined
+2025-01-28 14:53:33,759 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300020011x.pdf: name 're' is not defined
+2025-01-28 14:53:33,760 - research_qa - INFO - Processed batch 5 of 136
+2025-01-28 14:53:33,832 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300020012x.pdf: name 're' is not defined
+2025-01-28 14:53:33,934 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300020021x.pdf: name 're' is not defined
+2025-01-28 14:53:33,972 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300030017x.pdf: name 're' is not defined
+2025-01-28 14:53:34,081 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300040017x.pdf: name 're' is not defined
+2025-01-28 14:53:34,143 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300050018x.pdf: name 're' is not defined
+2025-01-28 14:53:34,143 - research_qa - INFO - Processed batch 6 of 136
+2025-01-28 14:53:34,234 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300050022x.pdf: name 're' is not defined
+2025-01-28 14:53:34,364 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300050023x.pdf: name 're' is not defined
+2025-01-28 14:53:34,405 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300050025x.pdf: name 're' is not defined
+2025-01-28 14:53:34,465 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X0003000600017x.pdf: name 're' is not defined
+2025-01-28 14:53:34,583 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300060030x.pdf: name 're' is not defined
+2025-01-28 14:53:34,583 - research_qa - INFO - Processed batch 7 of 136
+2025-01-28 14:53:34,699 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300060035x.pdf: name 're' is not defined
+2025-01-28 14:53:34,815 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400010030x.pdf: name 're' is not defined
+2025-01-28 14:53:34,895 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400010039x.pdf: name 're' is not defined
+2025-01-28 14:53:34,965 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400020011x.pdf: name 're' is not defined
+2025-01-28 14:53:35,068 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400030004x.pdf: name 're' is not defined
+2025-01-28 14:53:35,068 - research_qa - INFO - Processed batch 8 of 136
+2025-01-28 14:53:35,182 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400030008x.pdf: name 're' is not defined
+2025-01-28 14:53:35,298 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400030019x.pdf: name 're' is not defined
+2025-01-28 14:53:35,365 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400030035x.pdf: name 're' is not defined
+2025-01-28 14:53:35,418 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040002x.pdf: name 're' is not defined
+2025-01-28 14:53:35,483 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040013x.pdf: name 're' is not defined
+2025-01-28 14:53:35,484 - research_qa - INFO - Processed batch 9 of 136
+2025-01-28 14:53:35,549 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040022x.pdf: name 're' is not defined
+2025-01-28 14:53:35,678 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040040x.pdf: name 're' is not defined
+2025-01-28 14:53:35,718 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040043x.pdf: name 're' is not defined
+2025-01-28 14:53:35,755 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040044x.pdf: name 're' is not defined
+2025-01-28 14:53:35,817 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040045x.pdf: name 're' is not defined
+2025-01-28 14:53:35,817 - research_qa - INFO - Processed batch 10 of 136
+2025-01-28 14:53:35,837 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040046x.pdf: name 're' is not defined
+2025-01-28 14:53:35,899 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400050022x.pdf: name 're' is not defined
+2025-01-28 14:53:35,994 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400050035x.pdf: name 're' is not defined
+2025-01-28 14:53:36,065 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400060010x.pdf: name 're' is not defined
+2025-01-28 14:53:36,132 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400060028x.pdf: name 're' is not defined
+2025-01-28 14:53:36,132 - research_qa - INFO - Processed batch 11 of 136
+2025-01-28 14:53:36,219 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500010017x.pdf: name 're' is not defined
+2025-01-28 14:53:36,266 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500020004x.pdf: name 're' is not defined
+2025-01-28 14:53:36,370 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500020008x.pdf: name 're' is not defined
+2025-01-28 14:53:36,415 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500020017x.pdf: name 're' is not defined
+2025-01-28 14:53:36,522 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500020020x.pdf: name 're' is not defined
+2025-01-28 14:53:36,523 - research_qa - INFO - Processed batch 12 of 136
+2025-01-28 14:53:36,553 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500020031x.pdf: name 're' is not defined
+2025-01-28 14:53:36,616 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500020046x.pdf: name 're' is not defined
+2025-01-28 14:53:36,683 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500040032x.pdf: name 're' is not defined
+2025-01-28 14:53:36,786 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500050021x.pdf: name 're' is not defined
+2025-01-28 14:53:36,894 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500050026x.pdf: name 're' is not defined
+2025-01-28 14:53:36,895 - research_qa - INFO - Processed batch 13 of 136
+2025-01-28 14:53:37,010 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500060018x.pdf: name 're' is not defined
+2025-01-28 14:53:37,147 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500060025x.pdf: name 're' is not defined
+2025-01-28 14:53:37,215 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500060029x.pdf: name 're' is not defined
+2025-01-28 14:53:37,269 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500060037x.pdf: name 're' is not defined
+2025-01-28 14:53:37,321 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183XX000500030015x.pdf: name 're' is not defined
+2025-01-28 14:53:37,321 - research_qa - INFO - Processed batch 14 of 136
+2025-01-28 14:53:37,351 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183000600010028x.pdf: name 're' is not defined
+2025-01-28 14:53:37,465 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600010004x.pdf: name 're' is not defined
+2025-01-28 14:53:37,532 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600020003x.pdf: name 're' is not defined
+2025-01-28 14:53:37,583 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600020005x.pdf: name 're' is not defined
+2025-01-28 14:53:37,677 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600030005x.pdf: name 're' is not defined
+2025-01-28 14:53:37,678 - research_qa - INFO - Processed batch 15 of 136
+2025-01-28 14:53:37,734 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600030012x.pdf: name 're' is not defined
+2025-01-28 14:53:37,864 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600040020x.pdf: name 're' is not defined
+2025-01-28 14:53:37,899 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600040026x.pdf: name 're' is not defined
+2025-01-28 14:53:37,950 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600050013x.pdf: name 're' is not defined
+2025-01-28 14:53:38,070 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600060008x.pdf: name 're' is not defined
+2025-01-28 14:53:38,071 - research_qa - INFO - Processed batch 16 of 136
+2025-01-28 14:53:38,174 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600060016x.pdf: name 're' is not defined
+2025-01-28 14:53:38,268 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600060018x.pdf: name 're' is not defined
+2025-01-28 14:53:38,315 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700010003x.pdf: name 're' is not defined
+2025-01-28 14:53:38,415 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700010023x.pdf: name 're' is not defined
+2025-01-28 14:53:38,498 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700010027x.pdf: name 're' is not defined
+2025-01-28 14:53:38,499 - research_qa - INFO - Processed batch 17 of 136
+2025-01-28 14:53:38,536 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700010030x.pdf: name 're' is not defined
+2025-01-28 14:53:38,582 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700010034x.pdf: name 're' is not defined
+2025-01-28 14:53:38,731 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700030009x.pdf: name 're' is not defined
+2025-01-28 14:53:38,827 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700040041x.pdf: name 're' is not defined
+2025-01-28 14:53:38,918 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700050009x.pdf: name 're' is not defined
+2025-01-28 14:53:38,919 - research_qa - INFO - Processed batch 18 of 136
+2025-01-28 14:53:39,071 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700050022x.pdf: name 're' is not defined
+2025-01-28 14:53:39,164 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700050025x.pdf: name 're' is not defined
+2025-01-28 14:53:39,309 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700050029x.pdf: name 're' is not defined
+2025-01-28 14:53:39,415 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700050033x.pdf: name 're' is not defined
+2025-01-28 14:53:39,482 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700060005x.pdf: name 're' is not defined
+2025-01-28 14:53:39,482 - research_qa - INFO - Processed batch 19 of 136
+2025-01-28 14:53:39,551 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700060007x.pdf: name 're' is not defined
+2025-01-28 14:53:39,635 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700060024x.pdf: name 're' is not defined
+2025-01-28 14:53:39,723 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800010020x.pdf: name 're' is not defined
+2025-01-28 14:53:39,753 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800010036x.pdf: name 're' is not defined
+2025-01-28 14:53:39,816 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800020019x.pdf: name 're' is not defined
+2025-01-28 14:53:39,816 - research_qa - INFO - Processed batch 20 of 136
+2025-01-28 14:53:39,866 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800030010x.pdf: name 're' is not defined
+2025-01-28 14:53:39,951 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800030012x.pdf: name 're' is not defined
+2025-01-28 14:53:40,045 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800050021x.pdf: name 're' is not defined
+2025-01-28 14:53:40,146 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800050027x.pdf: name 're' is not defined
+2025-01-28 14:53:40,216 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800060002x.pdf: name 're' is not defined
+2025-01-28 14:53:40,216 - research_qa - INFO - Processed batch 21 of 136
+2025-01-28 14:53:40,336 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800060004x.pdf: name 're' is not defined
+2025-01-28 14:53:40,399 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900010009x.pdf: name 're' is not defined
+2025-01-28 14:53:40,520 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900010029x.pdf: name 're' is not defined
+2025-01-28 14:53:40,601 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900020004x.pdf: name 're' is not defined
+2025-01-28 14:53:40,679 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900020006x.pdf: name 're' is not defined
+2025-01-28 14:53:40,680 - research_qa - INFO - Processed batch 22 of 136
+2025-01-28 14:53:40,780 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900020009x.pdf: name 're' is not defined
+2025-01-28 14:53:40,852 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900020010x.pdf: name 're' is not defined
+2025-01-28 14:53:40,971 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900020039x.pdf: name 're' is not defined
+2025-01-28 14:53:41,032 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900030018x.pdf: name 're' is not defined
+2025-01-28 14:53:41,085 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900030027x.pdf: name 're' is not defined
+2025-01-28 14:53:41,085 - research_qa - INFO - Processed batch 23 of 136
+2025-01-28 14:53:41,152 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900030039x.pdf: name 're' is not defined
+2025-01-28 14:53:41,247 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900030042x.pdf: name 're' is not defined
+2025-01-28 14:53:41,395 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900040011x.pdf: name 're' is not defined
+2025-01-28 14:53:41,449 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900040043x.pdf: name 're' is not defined
+2025-01-28 14:53:41,471 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900040051x.pdf: name 're' is not defined
+2025-01-28 14:53:41,471 - research_qa - INFO - Processed batch 24 of 136
+2025-01-28 14:53:41,570 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900050043x.pdf: name 're' is not defined
+2025-01-28 14:53:41,632 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900050045x.pdf: name 're' is not defined
+2025-01-28 14:53:41,742 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900050052x.pdf: name 're' is not defined
+2025-01-28 14:53:41,858 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900060009x.pdf: name 're' is not defined
+2025-01-28 14:53:41,932 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900060024x.pdf: name 're' is not defined
+2025-01-28 14:53:41,932 - research_qa - INFO - Processed batch 25 of 136
+2025-01-28 14:53:42,017 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900060045x.pdf: name 're' is not defined
+2025-01-28 14:53:42,131 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900060053x.pdf: name 're' is not defined
+2025-01-28 14:53:42,235 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000010030x.pdf: name 're' is not defined
+2025-01-28 14:53:42,302 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000020018x.pdf: name 're' is not defined
+2025-01-28 14:53:42,382 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000020025x.pdf: name 're' is not defined
+2025-01-28 14:53:42,382 - research_qa - INFO - Processed batch 26 of 136
+2025-01-28 14:53:42,469 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000020027x.pdf: name 're' is not defined
+2025-01-28 14:53:42,559 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000030025x.pdf: name 're' is not defined
+2025-01-28 14:53:42,658 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000040024x.pdf: name 're' is not defined
+2025-01-28 14:53:42,766 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000040027x.pdf: name 're' is not defined
+2025-01-28 14:53:42,804 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000040043x.pdf: name 're' is not defined
+2025-01-28 14:53:42,804 - research_qa - INFO - Processed batch 27 of 136
+2025-01-28 14:53:42,867 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000050017x.pdf: name 're' is not defined
+2025-01-28 14:53:43,030 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000060011x.pdf: name 're' is not defined
+2025-01-28 14:53:43,164 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000060018x.pdf: name 're' is not defined
+2025-01-28 14:53:43,313 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000060025x.pdf: name 're' is not defined
+2025-01-28 14:53:43,498 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000060031x.pdf: name 're' is not defined
+2025-01-28 14:53:43,498 - research_qa - INFO - Processed batch 28 of 136
+2025-01-28 14:53:43,663 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000060034x.pdf: name 're' is not defined
+2025-01-28 14:53:43,753 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000060038x.pdf: name 're' is not defined
+2025-01-28 14:53:43,815 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000060040x.pdf: name 're' is not defined
+2025-01-28 14:53:43,930 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000060041x.pdf: name 're' is not defined
+2025-01-28 14:53:44,015 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1970.0011183X001000060042x.pdf: name 're' is not defined
+2025-01-28 14:53:44,015 - research_qa - INFO - Processed batch 29 of 136
+2025-01-28 14:53:44,058 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100010008x.pdf: name 're' is not defined
+2025-01-28 14:53:44,132 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100010010x.pdf: name 're' is not defined
+2025-01-28 14:53:44,265 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100010032x.pdf: name 're' is not defined
+2025-01-28 14:53:44,352 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100010035x.pdf: name 're' is not defined
+2025-01-28 14:53:44,415 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100010048x.pdf: name 're' is not defined
+2025-01-28 14:53:44,415 - research_qa - INFO - Processed batch 30 of 136
+2025-01-28 14:53:44,481 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100010052x.pdf: name 're' is not defined
+2025-01-28 14:53:44,567 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100020028x.pdf: name 're' is not defined
+2025-01-28 14:53:44,632 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100020030x.pdf: name 're' is not defined
+2025-01-28 14:53:44,721 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100020036x.pdf: name 're' is not defined
+2025-01-28 14:53:44,808 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100030021x.pdf: name 're' is not defined
+2025-01-28 14:53:44,809 - research_qa - INFO - Processed batch 31 of 136
+2025-01-28 14:53:44,900 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100030025x.pdf: name 're' is not defined
+2025-01-28 14:53:45,014 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100030029x.pdf: name 're' is not defined
+2025-01-28 14:53:45,131 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100030032x.pdf: name 're' is not defined
+2025-01-28 14:53:45,236 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100030043x.pdf: name 're' is not defined
+2025-01-28 14:53:45,342 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100030045x.pdf: name 're' is not defined
+2025-01-28 14:53:45,342 - research_qa - INFO - Processed batch 32 of 136
+2025-01-28 14:53:45,523 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100040007x.pdf: name 're' is not defined
+2025-01-28 14:53:45,627 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100040016x.pdf: name 're' is not defined
+2025-01-28 14:53:45,682 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100040028x.pdf: name 're' is not defined
+2025-01-28 14:53:45,775 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100040031x.pdf: name 're' is not defined
+2025-01-28 14:53:45,898 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100040043x.pdf: name 're' is not defined
+2025-01-28 14:53:45,898 - research_qa - INFO - Processed batch 33 of 136
+2025-01-28 14:53:46,013 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100040048x.pdf: name 're' is not defined
+2025-01-28 14:53:46,111 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100050020x.pdf: name 're' is not defined
+2025-01-28 14:53:46,310 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100050027x.pdf: name 're' is not defined
+2025-01-28 14:53:46,416 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100050033x.pdf: name 're' is not defined
+2025-01-28 14:53:46,525 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100050041x.pdf: name 're' is not defined
+2025-01-28 14:53:46,526 - research_qa - INFO - Processed batch 34 of 136
+2025-01-28 14:53:46,626 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100050042x.pdf: name 're' is not defined
+2025-01-28 14:53:46,733 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100050050x.pdf: name 're' is not defined
+2025-01-28 14:53:46,815 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100060018x.pdf: name 're' is not defined
+2025-01-28 14:53:46,850 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100060042x.pdf: name 're' is not defined
+2025-01-28 14:53:46,899 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100060044x.pdf: name 're' is not defined
+2025-01-28 14:53:46,899 - research_qa - INFO - Processed batch 35 of 136
+2025-01-28 14:53:46,982 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1971.0011183X001100060049x.pdf: name 're' is not defined
+2025-01-28 14:53:47,090 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200010021x.pdf: name 're' is not defined
+2025-01-28 14:53:47,172 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200010022x.pdf: name 're' is not defined
+2025-01-28 14:53:47,281 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200010023x.pdf: name 're' is not defined
+2025-01-28 14:53:47,332 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200010032x.pdf: name 're' is not defined
+2025-01-28 14:53:47,332 - research_qa - INFO - Processed batch 36 of 136
+2025-01-28 14:53:47,463 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200010039x.pdf: name 're' is not defined
+2025-01-28 14:53:47,504 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200010052x.pdf: name 're' is not defined
+2025-01-28 14:53:47,549 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200020010x.pdf: name 're' is not defined
+2025-01-28 14:53:47,613 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200020012x.pdf: name 're' is not defined
+2025-01-28 14:53:47,649 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200020030x.pdf: name 're' is not defined
+2025-01-28 14:53:47,650 - research_qa - INFO - Processed batch 37 of 136
+2025-01-28 14:53:47,827 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200030015x.pdf: name 're' is not defined
+2025-01-28 14:53:47,929 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200030018x.pdf: name 're' is not defined
+2025-01-28 14:53:47,982 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200030025x.pdf: name 're' is not defined
+2025-01-28 14:53:48,097 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200030026x.pdf: name 're' is not defined
+2025-01-28 14:53:48,149 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200030028x.pdf: name 're' is not defined
+2025-01-28 14:53:48,149 - research_qa - INFO - Processed batch 38 of 136
+2025-01-28 14:53:48,252 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200030029x.pdf: name 're' is not defined
+2025-01-28 14:53:48,270 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200030058x.pdf: name 're' is not defined
+2025-01-28 14:53:48,331 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200040010x.pdf: name 're' is not defined
+2025-01-28 14:53:48,399 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200040011x.pdf: name 're' is not defined
+2025-01-28 14:53:48,437 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200040020x.pdf: name 're' is not defined
+2025-01-28 14:53:48,437 - research_qa - INFO - Processed batch 39 of 136
+2025-01-28 14:53:48,483 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200040025x.pdf: name 're' is not defined
+2025-01-28 14:53:48,519 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200040045x.pdf: name 're' is not defined
+2025-01-28 14:53:48,582 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200050017x.pdf: name 're' is not defined
+2025-01-28 14:53:48,648 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200050018x.pdf: name 're' is not defined
+2025-01-28 14:53:48,765 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200050040x.pdf: name 're' is not defined
+2025-01-28 14:53:48,765 - research_qa - INFO - Processed batch 40 of 136
+2025-01-28 14:53:48,831 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200050045x.pdf: name 're' is not defined
+2025-01-28 14:53:48,853 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200050063x.pdf: name 're' is not defined
+2025-01-28 14:53:48,915 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200060010x.pdf: name 're' is not defined
+2025-01-28 14:53:48,982 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200060014x.pdf: name 're' is not defined
+2025-01-28 14:53:49,128 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200060040x.pdf: name 're' is not defined
+2025-01-28 14:53:49,128 - research_qa - INFO - Processed batch 41 of 136
+2025-01-28 14:53:49,394 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1972.0011183X001200060046x.pdf: name 're' is not defined
+2025-01-28 14:53:49,832 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300010006x.pdf: name 're' is not defined
+2025-01-28 14:53:50,090 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300010013x.pdf: name 're' is not defined
+2025-01-28 14:53:50,339 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300010028x.pdf: name 're' is not defined
+2025-01-28 14:53:50,513 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300010033x.pdf: name 're' is not defined
+2025-01-28 14:53:50,513 - research_qa - INFO - Processed batch 42 of 136
+2025-01-28 14:53:50,632 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300010034x.pdf: name 're' is not defined
+2025-01-28 14:53:50,747 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300020003x.pdf: name 're' is not defined
+2025-01-28 14:53:50,917 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300020006x.pdf: name 're' is not defined
+2025-01-28 14:53:51,083 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300020024x.pdf: name 're' is not defined
+2025-01-28 14:53:51,229 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300020039x.pdf: name 're' is not defined
+2025-01-28 14:53:51,229 - research_qa - INFO - Processed batch 43 of 136
+2025-01-28 14:53:51,395 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300030006x.pdf: name 're' is not defined
+2025-01-28 14:53:51,567 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300030016x.pdf: name 're' is not defined
+2025-01-28 14:53:51,776 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300030019x.pdf: name 're' is not defined
+2025-01-28 14:53:51,945 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300030028x.pdf: name 're' is not defined
+2025-01-28 14:53:52,081 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300030032x.pdf: name 're' is not defined
+2025-01-28 14:53:52,082 - research_qa - INFO - Processed batch 44 of 136
+2025-01-28 14:53:52,214 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300030035x.pdf: name 're' is not defined
+2025-01-28 14:53:52,368 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300040011x.pdf: name 're' is not defined
+2025-01-28 14:53:52,454 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300040012x.pdf: name 're' is not defined
+2025-01-28 14:53:52,568 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300040015x.pdf: name 're' is not defined
+2025-01-28 14:53:52,729 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300040016x.pdf: name 're' is not defined
+2025-01-28 14:53:52,729 - research_qa - INFO - Processed batch 45 of 136
+2025-01-28 14:53:52,839 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300050016x.pdf: name 're' is not defined
+2025-01-28 14:53:52,918 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300050023x.pdf: name 're' is not defined
+2025-01-28 14:53:53,014 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300060030x.pdf: name 're' is not defined
+2025-01-28 14:53:53,081 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300060033x.pdf: name 're' is not defined
+2025-01-28 14:53:53,148 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300060035x.pdf: name 're' is not defined
+2025-01-28 14:53:53,148 - research_qa - INFO - Processed batch 46 of 136
+2025-01-28 14:53:53,239 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300060049x.pdf: name 're' is not defined
+2025-01-28 14:53:53,252 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1973.0011183X001300060082x.pdf: name 're' is not defined
+2025-01-28 14:53:53,296 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400010036x.pdf: name 're' is not defined
+2025-01-28 14:53:53,365 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400020031x.pdf: name 're' is not defined
+2025-01-28 14:53:53,415 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400020036x.pdf: name 're' is not defined
+2025-01-28 14:53:53,415 - research_qa - INFO - Processed batch 47 of 136
+2025-01-28 14:53:53,508 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400020038x.pdf: name 're' is not defined
+2025-01-28 14:53:53,601 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400020039x.pdf: name 're' is not defined
+2025-01-28 14:53:53,710 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400020047x.pdf: name 're' is not defined
+2025-01-28 14:53:53,781 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400030014x.pdf: name 're' is not defined
+2025-01-28 14:53:53,832 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400030030x.pdf: name 're' is not defined
+2025-01-28 14:53:53,832 - research_qa - INFO - Processed batch 48 of 136
+2025-01-28 14:53:53,898 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400030035x.pdf: name 're' is not defined
+2025-01-28 14:53:53,984 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400030040x.pdf: name 're' is not defined
+2025-01-28 14:53:54,082 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400030045x.pdf: name 're' is not defined
+2025-01-28 14:53:54,148 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400040007x.pdf: name 're' is not defined
+2025-01-28 14:53:54,215 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400040009x.pdf: name 're' is not defined
+2025-01-28 14:53:54,215 - research_qa - INFO - Processed batch 49 of 136
+2025-01-28 14:53:54,311 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400040014x.pdf: name 're' is not defined
+2025-01-28 14:53:54,381 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400040032x.pdf: name 're' is not defined
+2025-01-28 14:53:54,514 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400050015x.pdf: name 're' is not defined
+2025-01-28 14:53:54,613 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400050026x.pdf: name 're' is not defined
+2025-01-28 14:53:54,699 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400050039x.pdf: name 're' is not defined
+2025-01-28 14:53:54,699 - research_qa - INFO - Processed batch 50 of 136
+2025-01-28 14:53:54,764 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400060027x.pdf: name 're' is not defined
+2025-01-28 14:53:54,881 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400060029x.pdf: name 're' is not defined
+2025-01-28 14:53:54,902 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400060057x.pdf: name 're' is not defined
+2025-01-28 14:53:54,914 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1974.0011183X001400060058x.pdf: name 're' is not defined
+2025-01-28 14:53:54,971 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500010004x.pdf: name 're' is not defined
+2025-01-28 14:53:54,971 - research_qa - INFO - Processed batch 51 of 136
+2025-01-28 14:53:55,082 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500010014x.pdf: name 're' is not defined
+2025-01-28 14:53:55,148 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500010017x.pdf: name 're' is not defined
+2025-01-28 14:53:55,231 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500010026x.pdf: name 're' is not defined
+2025-01-28 14:53:55,343 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500020001x.pdf: name 're' is not defined
+2025-01-28 14:53:55,387 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500020016x.pdf: name 're' is not defined
+2025-01-28 14:53:55,387 - research_qa - INFO - Processed batch 52 of 136
+2025-01-28 14:53:55,473 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500020018x.pdf: name 're' is not defined
+2025-01-28 14:53:55,548 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500020032x.pdf: name 're' is not defined
+2025-01-28 14:53:55,644 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500020038x.pdf: name 're' is not defined
+2025-01-28 14:53:55,751 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500020041x.pdf: name 're' is not defined
+2025-01-28 14:53:55,787 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500030010x.pdf: name 're' is not defined
+2025-01-28 14:53:55,787 - research_qa - INFO - Processed batch 53 of 136
+2025-01-28 14:53:55,888 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500030026x.pdf: name 're' is not defined
+2025-01-28 14:53:55,983 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500030033x.pdf: name 're' is not defined
+2025-01-28 14:53:56,048 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500030035x.pdf: name 're' is not defined
+2025-01-28 14:53:56,179 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500030037x.pdf: name 're' is not defined
+2025-01-28 14:53:56,247 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500030038x.pdf: name 're' is not defined
+2025-01-28 14:53:56,247 - research_qa - INFO - Processed batch 54 of 136
+2025-01-28 14:53:56,297 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500030047x.pdf: name 're' is not defined
+2025-01-28 14:53:56,413 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500040005x.pdf: name 're' is not defined
+2025-01-28 14:53:56,481 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500040009x.pdf: name 're' is not defined
+2025-01-28 14:53:56,597 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500040017x.pdf: name 're' is not defined
+2025-01-28 14:53:56,715 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500040025x.pdf: name 're' is not defined
+2025-01-28 14:53:56,716 - research_qa - INFO - Processed batch 55 of 136
+2025-01-28 14:53:56,807 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500040041x.pdf: name 're' is not defined
+2025-01-28 14:53:56,864 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500040055x.pdf: name 're' is not defined
+2025-01-28 14:53:56,979 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500050028x.pdf: name 're' is not defined
+2025-01-28 14:53:57,064 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500050029x.pdf: name 're' is not defined
+2025-01-28 14:53:57,139 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500050030x.pdf: name 're' is not defined
+2025-01-28 14:53:57,140 - research_qa - INFO - Processed batch 56 of 136
+2025-01-28 14:53:57,243 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500060001x.pdf: name 're' is not defined
+2025-01-28 14:53:57,346 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500060006x.pdf: name 're' is not defined
+2025-01-28 14:53:57,446 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500060007x.pdf: name 're' is not defined
+2025-01-28 14:53:57,541 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500060013x.pdf: name 're' is not defined
+2025-01-28 14:53:57,614 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500060020x.pdf: name 're' is not defined
+2025-01-28 14:53:57,614 - research_qa - INFO - Processed batch 57 of 136
+2025-01-28 14:53:57,708 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500060035x.pdf: name 're' is not defined
+2025-01-28 14:53:57,753 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500060041x.pdf: name 're' is not defined
+2025-01-28 14:53:57,831 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500060045x.pdf: name 're' is not defined
+2025-01-28 14:53:57,886 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1975.0011183X001500060065x.pdf: name 're' is not defined
+2025-01-28 14:53:57,936 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600010006x.pdf: name 're' is not defined
+2025-01-28 14:53:57,936 - research_qa - INFO - Processed batch 58 of 136
+2025-01-28 14:53:58,014 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600010008x.pdf: name 're' is not defined
+2025-01-28 14:53:58,146 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600010018x.pdf: name 're' is not defined
+2025-01-28 14:53:58,213 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600010022x.pdf: name 're' is not defined
+2025-01-28 14:53:58,280 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600010025x.pdf: name 're' is not defined
+2025-01-28 14:53:58,364 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600020010x.pdf: name 're' is not defined
+2025-01-28 14:53:58,364 - research_qa - INFO - Processed batch 59 of 136
+2025-01-28 14:53:58,453 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600020014x.pdf: name 're' is not defined
+2025-01-28 14:53:58,595 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600020020x.pdf: name 're' is not defined
+2025-01-28 14:53:58,663 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600020024x.pdf: name 're' is not defined
+2025-01-28 14:53:58,698 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600020054xa.pdf: name 're' is not defined
+2025-01-28 14:53:58,748 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600030019x.pdf: name 're' is not defined
+2025-01-28 14:53:58,748 - research_qa - INFO - Processed batch 60 of 136
+2025-01-28 14:53:58,787 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600030023x.pdf: name 're' is not defined
+2025-01-28 14:53:58,864 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600040007x.pdf: name 're' is not defined
+2025-01-28 14:53:58,979 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600040011x.pdf: name 're' is not defined
+2025-01-28 14:53:59,031 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600040015x.pdf: name 're' is not defined
+2025-01-28 14:53:59,121 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600040021x.pdf: name 're' is not defined
+2025-01-28 14:53:59,121 - research_qa - INFO - Processed batch 61 of 136
+2025-01-28 14:53:59,179 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600040026x.pdf: name 're' is not defined
+2025-01-28 14:53:59,233 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600040038x.pdf: name 're' is not defined
+2025-01-28 14:53:59,313 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600040041x.pdf: name 're' is not defined
+2025-01-28 14:53:59,446 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600040043x.pdf: name 're' is not defined
+2025-01-28 14:53:59,531 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600040048x.pdf: name 're' is not defined
+2025-01-28 14:53:59,531 - research_qa - INFO - Processed batch 62 of 136
+2025-01-28 14:53:59,551 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600040049x.pdf: name 're' is not defined
+2025-01-28 14:53:59,564 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600040050x.pdf: name 're' is not defined
+2025-01-28 14:53:59,581 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600040051x.pdf: name 're' is not defined
+2025-01-28 14:53:59,614 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600040052x.pdf: name 're' is not defined
+2025-01-28 14:53:59,699 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600050037x.pdf: name 're' is not defined
+2025-01-28 14:53:59,700 - research_qa - INFO - Processed batch 63 of 136
+2025-01-28 14:53:59,775 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600060005x.pdf: name 're' is not defined
+2025-01-28 14:53:59,881 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600060006x.pdf: name 're' is not defined
+2025-01-28 14:53:59,950 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600060010x.pdf: name 're' is not defined
+2025-01-28 14:54:00,029 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600060014x.pdf: name 're' is not defined
+2025-01-28 14:54:00,130 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600060021x.pdf: name 're' is not defined
+2025-01-28 14:54:00,130 - research_qa - INFO - Processed batch 64 of 136
+2025-01-28 14:54:00,213 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600060029x.pdf: name 're' is not defined
+2025-01-28 14:54:00,292 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600060033x.pdf: name 're' is not defined
+2025-01-28 14:54:00,371 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600060034x.pdf: name 're' is not defined
+2025-01-28 14:54:00,394 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1976.0011183X001600060039x.pdf: name 're' is not defined
+2025-01-28 14:54:00,473 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700010001x.pdf: name 're' is not defined
+2025-01-28 14:54:00,473 - research_qa - INFO - Processed batch 65 of 136
+2025-01-28 14:54:00,546 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700010002x.pdf: name 're' is not defined
+2025-01-28 14:54:00,647 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700010022x.pdf: name 're' is not defined
+2025-01-28 14:54:00,714 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700010023x.pdf: name 're' is not defined
+2025-01-28 14:54:00,810 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700010045x.pdf: name 're' is not defined
+2025-01-28 14:54:00,847 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700010056x.pdf: name 're' is not defined
+2025-01-28 14:54:00,847 - research_qa - INFO - Processed batch 66 of 136
+2025-01-28 14:54:00,883 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700020018x.pdf: name 're' is not defined
+2025-01-28 14:54:00,964 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700020022x.pdf: name 're' is not defined
+2025-01-28 14:54:01,095 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700020025x.pdf: name 're' is not defined
+2025-01-28 14:54:01,155 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700020028x.pdf: name 're' is not defined
+2025-01-28 14:54:01,227 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700030001x.pdf: name 're' is not defined
+2025-01-28 14:54:01,228 - research_qa - INFO - Processed batch 67 of 136
+2025-01-28 14:54:01,291 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700030022x.pdf: name 're' is not defined
+2025-01-28 14:54:01,334 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700040003x.pdf: name 're' is not defined
+2025-01-28 14:54:01,396 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700040047x.pdf: name 're' is not defined
+2025-01-28 14:54:01,489 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700040050x.pdf: name 're' is not defined
+2025-01-28 14:54:01,523 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700050003x.pdf: name 're' is not defined
+2025-01-28 14:54:01,524 - research_qa - INFO - Processed batch 68 of 136
+2025-01-28 14:54:01,564 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700050008x.pdf: name 're' is not defined
+2025-01-28 14:54:01,648 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700050023x.pdf: name 're' is not defined
+2025-01-28 14:54:01,666 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700050048x.pdf: name 're' is not defined
+2025-01-28 14:54:01,699 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700060013x.pdf: name 're' is not defined
+2025-01-28 14:54:01,786 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700060022x.pdf: name 're' is not defined
+2025-01-28 14:54:01,786 - research_qa - INFO - Processed batch 69 of 136
+2025-01-28 14:54:01,843 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1977.0011183X001700060034x.pdf: name 're' is not defined
+2025-01-28 14:54:01,880 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1978.0011183X001800010015x.pdf: name 're' is not defined
+2025-01-28 14:54:01,956 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1978.0011183X001800010040x.pdf: name 're' is not defined
+2025-01-28 14:54:01,976 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1978.0011183X001800010047x.pdf: name 're' is not defined
+2025-01-28 14:54:02,014 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1978.0011183X001800010048x.pdf: name 're' is not defined
+2025-01-28 14:54:02,014 - research_qa - INFO - Processed batch 70 of 136
+2025-01-28 14:54:02,045 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1978.0011183X001800010049x.pdf: name 're' is not defined
+2025-01-28 14:54:02,085 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1978.0011183X001800010050x.pdf: name 're' is not defined
+2025-01-28 14:54:02,103 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1978.0011183X001800010051x.pdf: name 're' is not defined
+2025-01-28 14:54:02,192 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1978.0011183X001800020014x.pdf: name 're' is not defined
+2025-01-28 14:54:02,267 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1978.0011183X001800020016x.pdf: name 're' is not defined
+2025-01-28 14:54:02,268 - research_qa - INFO - Processed batch 71 of 136
+2025-01-28 14:54:02,314 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1978.0011183X001800020033x.pdf: name 're' is not defined

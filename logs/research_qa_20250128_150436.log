@@ -1,0 +1,147 @@
+2025-01-28 15:04:36,515 - research_qa - INFO - Found 676 PDF files to process
+2025-01-28 15:04:36,606 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_ccropsci1982.0011183X002200040019x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:36,656 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100030004x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:36,768 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100050003x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:36,823 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100050020x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:36,889 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100060001x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:36,889 - research_qa - INFO - Processed batch 1 of 136
+2025-01-28 15:04:37,036 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100060005x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:37,146 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100060026x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:37,246 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200010014x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:37,289 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200010019x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:37,346 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200010020x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:37,346 - research_qa - INFO - Processed batch 2 of 136
+2025-01-28 15:04:37,438 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200020031x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:37,490 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200020035x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:37,540 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200030019x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:37,563 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200030027x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:37,611 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200030029x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:37,612 - research_qa - INFO - Processed batch 3 of 136
+2025-01-28 15:04:37,671 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200040002x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:37,756 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200040022x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:37,804 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200040027x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:37,912 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200050009x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:38,019 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200050010x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:38,020 - research_qa - INFO - Processed batch 4 of 136
+2025-01-28 15:04:38,040 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200050027x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:38,126 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200060008x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:38,210 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300010012x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:38,384 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300010019x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:38,481 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300020011x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:38,482 - research_qa - INFO - Processed batch 5 of 136
+2025-01-28 15:04:38,568 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300020012x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:38,660 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300020021x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:38,691 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300030017x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:38,810 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300040017x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:38,874 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300050018x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:38,875 - research_qa - INFO - Processed batch 6 of 136
+2025-01-28 15:04:38,942 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300050022x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:39,071 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300050023x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:39,098 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300050025x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:39,171 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X0003000600017x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:39,267 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300060030x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:39,268 - research_qa - INFO - Processed batch 7 of 136
+2025-01-28 15:04:39,362 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300060035x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:39,435 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400010030x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:39,496 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400010039x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:39,556 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400020011x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:39,668 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400030004x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:39,669 - research_qa - INFO - Processed batch 8 of 136
+2025-01-28 15:04:39,765 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400030008x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:39,871 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400030019x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:39,923 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400030035x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:39,989 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040002x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:40,055 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040013x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:40,055 - research_qa - INFO - Processed batch 9 of 136
+2025-01-28 15:04:40,146 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040022x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:40,254 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040040x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:40,306 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040043x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:40,345 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040044x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:40,408 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040045x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:40,409 - research_qa - INFO - Processed batch 10 of 136
+2025-01-28 15:04:40,428 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040046x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:40,495 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400050022x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:40,581 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400050035x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:40,659 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400060010x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:40,735 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400060028x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:40,736 - research_qa - INFO - Processed batch 11 of 136
+2025-01-28 15:04:40,822 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500010017x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:40,872 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500020004x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:40,974 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500020008x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:41,023 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500020017x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:41,122 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500020020x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:41,122 - research_qa - INFO - Processed batch 12 of 136
+2025-01-28 15:04:41,155 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500020031x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:41,238 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500020046x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:41,291 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500040032x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:41,410 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500050021x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:41,521 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500050026x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:41,521 - research_qa - INFO - Processed batch 13 of 136
+2025-01-28 15:04:41,645 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500060018x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:41,793 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500060025x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:41,880 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500060029x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:41,927 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183X000500060037x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:41,974 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1965.0011183XX000500030015x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:41,974 - research_qa - INFO - Processed batch 14 of 136
+2025-01-28 15:04:42,015 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183000600010028x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:42,138 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600010004x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:42,217 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600020003x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:42,272 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600020005x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:42,389 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600030005x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:42,390 - research_qa - INFO - Processed batch 15 of 136
+2025-01-28 15:04:42,465 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600030012x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:42,608 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600040020x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:42,642 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600040026x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:42,705 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600050013x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:42,821 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600060008x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:42,822 - research_qa - INFO - Processed batch 16 of 136
+2025-01-28 15:04:42,929 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600060016x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:43,055 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1966.0011183X000600060018x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:43,157 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700010003x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:43,258 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700010023x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:43,343 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700010027x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:43,343 - research_qa - INFO - Processed batch 17 of 136
+2025-01-28 15:04:43,392 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700010030x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:43,441 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700010034x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:43,587 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700030009x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:43,680 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700040041x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:43,774 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700050009x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:43,775 - research_qa - INFO - Processed batch 18 of 136
+2025-01-28 15:04:43,935 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700050022x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:44,038 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700050025x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:44,185 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700050029x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:44,294 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700050033x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:44,375 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700060005x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:44,376 - research_qa - INFO - Processed batch 19 of 136
+2025-01-28 15:04:44,445 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700060007x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:44,529 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1967.0011183X000700060024x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:44,624 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800010020x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:44,659 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800010036x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:44,733 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800020019x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:44,734 - research_qa - INFO - Processed batch 20 of 136
+2025-01-28 15:04:44,789 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800030010x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:44,879 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800030012x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:44,971 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800050021x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:45,072 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800050027x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:45,174 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800060002x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:45,174 - research_qa - INFO - Processed batch 21 of 136
+2025-01-28 15:04:45,298 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1968.0011183X000800060004x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:45,375 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900010009x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:45,493 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900010029x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:45,587 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900020004x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:45,674 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900020006x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:45,674 - research_qa - INFO - Processed batch 22 of 136
+2025-01-28 15:04:45,788 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900020009x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:45,871 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900020010x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:46,004 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900020039x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:46,104 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900030018x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:46,152 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900030027x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:46,153 - research_qa - INFO - Processed batch 23 of 136
+2025-01-28 15:04:46,241 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900030039x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:46,349 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900030042x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:46,488 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900040011x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:46,539 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900040043x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:46,565 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900040051x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:46,565 - research_qa - INFO - Processed batch 24 of 136
+2025-01-28 15:04:46,670 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900050043x.pdf: bad escape \Z at position 64
+2025-01-28 15:04:46,765 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1969.0011183X000900050045x.pdf: bad escape \Z at position 64

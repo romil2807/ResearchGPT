@@ -1,0 +1,30 @@
+processing:
+  # PDF processing settings
+  batch_size: 5  # Reduced for initial testing
+  max_workers: 4
+  
+cleaning:
+  # Text cleaning settings
+  remove_references: true
+  remove_headers_footers: true
+  min_line_length: 20
+  
+output:
+  # Output settings
+  save_individual_files: true
+  output_format: "json"
+  compress_output: false
+  
+logging:
+  # Logging settings
+  level: "INFO"
+  log_to_file: true
+  log_dir: "logs"
+
+models:
+  # Local model settings instead of OpenAI
+  embedding_model: "sentence-transformers/all-mpnet-base-v2"
+  completion_model: "deepseek-ai/deepseek-coder-6.7b-instruct"
+  use_gpu: false
+  max_tokens_per_chunk: 1000
+  max_context_chunks: 3 

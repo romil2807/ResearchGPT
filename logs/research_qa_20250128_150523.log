@@ -1,0 +1,63 @@
+2025-01-28 15:05:23,630 - research_qa - INFO - Found 676 PDF files to process
+2025-01-28 15:05:23,722 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_ccropsci1982.0011183X002200040019x.pdf: unterminated character set at position 15
+2025-01-28 15:05:23,770 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100030004x.pdf: unterminated character set at position 15
+2025-01-28 15:05:23,891 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100050003x.pdf: unterminated character set at position 15
+2025-01-28 15:05:23,953 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100050020x.pdf: unterminated character set at position 15
+2025-01-28 15:05:24,020 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100060001x.pdf: unterminated character set at position 15
+2025-01-28 15:05:24,020 - research_qa - INFO - Processed batch 1 of 136
+2025-01-28 15:05:24,181 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100060005x.pdf: unterminated character set at position 15
+2025-01-28 15:05:24,277 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1961.0011183X000100060026x.pdf: unterminated character set at position 15
+2025-01-28 15:05:24,370 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200010014x.pdf: unterminated character set at position 15
+2025-01-28 15:05:24,420 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200010019x.pdf: unterminated character set at position 15
+2025-01-28 15:05:24,470 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200010020x.pdf: unterminated character set at position 15
+2025-01-28 15:05:24,470 - research_qa - INFO - Processed batch 2 of 136
+2025-01-28 15:05:24,565 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200020031x.pdf: unterminated character set at position 15
+2025-01-28 15:05:24,618 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200020035x.pdf: unterminated character set at position 15
+2025-01-28 15:05:24,669 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200030019x.pdf: unterminated character set at position 15
+2025-01-28 15:05:24,691 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200030027x.pdf: unterminated character set at position 15
+2025-01-28 15:05:24,736 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200030029x.pdf: unterminated character set at position 15
+2025-01-28 15:05:24,736 - research_qa - INFO - Processed batch 3 of 136
+2025-01-28 15:05:24,792 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200040002x.pdf: unterminated character set at position 15
+2025-01-28 15:05:24,879 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200040022x.pdf: unterminated character set at position 15
+2025-01-28 15:05:24,925 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200040027x.pdf: unterminated character set at position 15
+2025-01-28 15:05:25,034 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200050009x.pdf: unterminated character set at position 15
+2025-01-28 15:05:25,139 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200050010x.pdf: unterminated character set at position 15
+2025-01-28 15:05:25,140 - research_qa - INFO - Processed batch 4 of 136
+2025-01-28 15:05:25,158 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200050027x.pdf: unterminated character set at position 15
+2025-01-28 15:05:25,242 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1962.0011183X000200060008x.pdf: unterminated character set at position 15
+2025-01-28 15:05:25,324 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300010012x.pdf: unterminated character set at position 15
+2025-01-28 15:05:25,493 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300010019x.pdf: unterminated character set at position 15
+2025-01-28 15:05:25,584 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300020011x.pdf: unterminated character set at position 15
+2025-01-28 15:05:25,584 - research_qa - INFO - Processed batch 5 of 136
+2025-01-28 15:05:25,673 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300020012x.pdf: unterminated character set at position 15
+2025-01-28 15:05:25,761 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300020021x.pdf: unterminated character set at position 15
+2025-01-28 15:05:25,799 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300030017x.pdf: unterminated character set at position 15
+2025-01-28 15:05:25,908 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300040017x.pdf: unterminated character set at position 15
+2025-01-28 15:05:25,972 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300050018x.pdf: unterminated character set at position 15
+2025-01-28 15:05:25,973 - research_qa - INFO - Processed batch 6 of 136
+2025-01-28 15:05:26,036 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300050022x.pdf: unterminated character set at position 15
+2025-01-28 15:05:26,152 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300050023x.pdf: unterminated character set at position 15
+2025-01-28 15:05:26,192 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300050025x.pdf: unterminated character set at position 15
+2025-01-28 15:05:26,258 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X0003000600017x.pdf: unterminated character set at position 15
+2025-01-28 15:05:26,351 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300060030x.pdf: unterminated character set at position 15
+2025-01-28 15:05:26,351 - research_qa - INFO - Processed batch 7 of 136
+2025-01-28 15:05:26,453 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1963.0011183X000300060035x.pdf: unterminated character set at position 15
+2025-01-28 15:05:26,527 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400010030x.pdf: unterminated character set at position 15
+2025-01-28 15:05:26,595 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400010039x.pdf: unterminated character set at position 15
+2025-01-28 15:05:26,653 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400020011x.pdf: unterminated character set at position 15
+2025-01-28 15:05:26,736 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400030004x.pdf: unterminated character set at position 15
+2025-01-28 15:05:26,736 - research_qa - INFO - Processed batch 8 of 136
+2025-01-28 15:05:26,839 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400030008x.pdf: unterminated character set at position 15
+2025-01-28 15:05:26,949 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400030019x.pdf: unterminated character set at position 15
+2025-01-28 15:05:27,012 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400030035x.pdf: unterminated character set at position 15
+2025-01-28 15:05:27,069 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040002x.pdf: unterminated character set at position 15
+2025-01-28 15:05:27,127 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040013x.pdf: unterminated character set at position 15
+2025-01-28 15:05:27,127 - research_qa - INFO - Processed batch 9 of 136
+2025-01-28 15:05:27,215 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040022x.pdf: unterminated character set at position 15
+2025-01-28 15:05:27,335 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040040x.pdf: unterminated character set at position 15
+2025-01-28 15:05:27,375 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040043x.pdf: unterminated character set at position 15
+2025-01-28 15:05:27,419 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040044x.pdf: unterminated character set at position 15
+2025-01-28 15:05:27,485 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040045x.pdf: unterminated character set at position 15
+2025-01-28 15:05:27,485 - research_qa - INFO - Processed batch 10 of 136
+2025-01-28 15:05:27,509 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400040046x.pdf: unterminated character set at position 15
+2025-01-28 15:05:27,574 - research_qa - ERROR - Error processing C:\Users\Romil Shah\ResearchGPT\data\raw\10.2135_cropsci1964.0011183X000400050022x.pdf: unterminated character set at position 15

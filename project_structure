@@ -1,0 +1,22 @@
+research_qa/
+├── data/               # Data directory
+│   ├── raw/           # Store original PDFs here
+│   └── processed/     # Store processed text data
+│   └── embeddings/    # Store FAISS indexes and embeddings
+├── src/               # Source code
+│   ├── __init__.py
+│   ├── pdf_processor.py
+│   ├── data_cleaner.py
+│   ├── embeddings_manager.py
+│   ├── utils.py
+│   └── cli.py
+├── tests/             # Test files
+│   ├── __init__.py
+│   ├── test_pdf_processor.py
+│   ├── test_data_cleaner.py
+│   └── test_embeddings.py
+├── logs/              # Log files directory
+├── requirements.txt   # Dependencies
+├── config.yaml        # Configuration settings
+└── main.py           # Main entry point
+└── README.md         # Project documentation
