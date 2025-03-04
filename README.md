@@ -1,6 +1,6 @@
 # ResearchGPT
 
-A Python-based system for processing PDF documents (likely academic papers), cleaning the extracted data, and generating embeddings for advanced analysis and search capabilities.
+A Python-based CLI tool that leverages Large Language Models (LLMs) to process PDF documents, clean the extracted data, and generate embeddings for advanced analysis and search capabilities.
 
 ## Overview
 
