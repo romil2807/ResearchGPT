@@ -1,4 +1,4 @@
-# PDF Processing and Embedding System
+# ResearchGPT
 
 A Python-based system for processing PDF documents (likely academic papers), cleaning the extracted data, and generating embeddings for advanced analysis and search capabilities.
 
