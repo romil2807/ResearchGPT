@@ -91,3 +91,50 @@ def setup_directories():
     
     for dir_path in dirs:
         Path(dir_path).mkdir(parents=True, exist_ok=True)
+
+def get_llm(model_name="gpt-3.5-turbo", temperature=0.3):
+    """
+    Get the language model for generating responses
+    
+    Args:
+        model_name: Name of the model to use
+        temperature: Temperature for generation
+        
+    Returns:
+        LLM instance
+    """
+    # If using Hugging Face models
+    if "gpt" not in model_name.lower():
+        from langchain_community.llms import HuggingFacePipeline
+        import torch
+        from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
+        
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        model = AutoModelForCausalLM.from_pretrained(
+            model_name, 
+            torch_dtype=torch.float16,
+            device_map="auto"
+        )
+        
+        pipe = pipeline(
+            "text-generation",
+            model=model,
+            tokenizer=tokenizer,
+            max_new_tokens=500,  # Increase token limit
+            do_sample=True,
+            temperature=temperature,
+            top_p=0.9,
+            repetition_penalty=1.2,  # Add repetition penalty
+            pad_token_id=tokenizer.eos_token_id
+        )
+        
+        return HuggingFacePipeline(pipeline=pipe)
+    
+    # If using OpenAI models
+    else:
+        from langchain_openai import ChatOpenAI
+        
+        return ChatOpenAI(
+            model_name=model_name,
+            temperature=temperature
+        )

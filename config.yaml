@@ -29,3 +29,18 @@ models:
   use_gpu: false
   max_tokens_per_chunk: 1000
   max_context_chunks: 3 
+
+embeddings:
+  model: "huggingface"  # or "openai"
+  model_name: "BAAI/bge-large-en-v1.5"  # or "intfloat/e5-large-v2"
+  
+chunking:
+  chunk_size: 1000
+  chunk_overlap: 200
+  
+retrieval:
+  k: 5  # Number of documents to retrieve
+  
+llm:
+  model_name: "gpt-3.5-turbo"  # or your preferred model
+  temperature: 0.3 

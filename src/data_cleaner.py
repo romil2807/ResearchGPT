@@ -3,6 +3,7 @@ from typing import List, Dict, Tuple
 import nltk
 from nltk.tokenize import sent_tokenize
 from src.utils import TextProcessingUtils
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 class DataCleaner:
     def __init__(self, logger=None, config=None):
@@ -29,44 +30,34 @@ class DataCleaner:
     
     def clean_text(self, text: str) -> str:
         """
-        Enhanced text cleaning with better pattern matching.
+        Clean and preprocess the text.
         """
-        if not text:
-            return ""
+        try:
+            if not text or not isinstance(text, str):
+                return ""
             
-        # Split into lines for processing
-        lines = text.split('\n')
-        cleaned_lines = []
-        in_references = False
-        
-        for line in lines:
-            line = line.strip()
-            if not line:
-                continue
-                
-            # Check if we've reached the references section
-            if TextProcessingUtils.is_reference_line(line):
-                in_references = True
-                continue
-                
-            # Skip references section
-            if in_references:
-                continue
-                
-            # Skip headers and footers
-            if TextProcessingUtils.is_header_footer(line):
-                continue
-                
-            # Clean up various artifacts
-            line = self._clean_line(line)
-            if line:
-                cleaned_lines.append(line)
-        
-        # Join lines and normalize whitespace
-        cleaned_text = ' '.join(cleaned_lines)
-        cleaned_text = re.sub(r'\s+', ' ', cleaned_text)
-        
-        return cleaned_text.strip()
+            # Remove extra whitespace
+            cleaned = ' '.join(text.split())
+            
+            # Remove special characters if specified in config
+            if self.config.get('remove_special_chars', False):
+                cleaned = re.sub(r'[^\w\s]', '', cleaned)
+            
+            # Convert to lowercase if specified in config
+            if self.config.get('convert_to_lowercase', True):
+                cleaned = cleaned.lower()
+            
+            # Remove specific words or phrases if needed
+            stop_words = self.config.get('stop_words', [])
+            if stop_words:
+                for word in stop_words:
+                    cleaned = cleaned.replace(f" {word} ", " ")
+            
+            return cleaned
+        except Exception as e:
+            if self.logger:
+                self.logger.error(f"Error cleaning text: {str(e)}")
+            return ""
     
     def _clean_line(self, line: str) -> str:
         """Enhanced line cleaning with academic paper specific rules."""
@@ -94,79 +85,66 @@ class DataCleaner:
     
     def extract_metadata(self, text: str) -> Dict[str, str]:
         """
-        Enhanced metadata extraction with better pattern matching for research papers.
+        Extract metadata from the text.
+        This is a simple implementation that should be enhanced based on your specific needs.
         """
-        metadata = {
-            'title': None,
-            'author': None,
-            'abstract': None,
-            'keywords': None
-        }
-        
-        # Split text into lines for processing
-        lines = text.split('\n')
-        
-        # Extract title - look for first substantive line before author names
-        for i, line in enumerate(lines):
-            line = line.strip()
-            if line and not TextProcessingUtils.is_header_footer(line):
-                # Skip date/publication lines
-                if re.match(r'^Published|^Received|^\d{4}$', line):
-                    continue
-                metadata['title'] = line
-                break
-        
-        # Extract authors - look for lines between title and abstract
-        if metadata['title']:
-            title_pos = text.find(metadata['title'])
-            abstract_pos = text.find('ABSTRACT')
-            if title_pos != -1 and abstract_pos != -1:
-                author_text = text[title_pos + len(metadata['title']):abstract_pos].strip()
-                # Clean up author text
-                author_text = re.sub(r'\d+\s*$', '', author_text)  # Remove trailing numbers
-                author_text = re.sub(r'\s+and\s+', ', ', author_text)  # Standardize separators
-                # Remove footnote markers
-                author_text = re.sub(r'\d+$', '', author_text)
-                metadata['author'] = author_text.strip()
-        
-        # Extract abstract with improved pattern matching
-        abstract_patterns = [
-            r'ABSTRACT\s*\n+(.*?)(?=\n\s*(?:Additional index words:|MATERIALS AND METHODS|INTRODUCTION|$))',
-            r'Abstract:?\s*(.*?)(?=\n\s*(?:Additional index words:|MATERIALS AND METHODS|INTRODUCTION|$))',
-            r'(?:ABSTRACT|Abstract).*?\n(.*?)(?=\n\s*(?:Additional index words:|MATERIALS AND METHODS|INTRODUCTION|$))'
-        ]
-        
-        for pattern in abstract_patterns:
-            try:
-                abstract_match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE | re.DOTALL)
-                if abstract_match:
-                    abstract_text = abstract_match.group(1).strip()
-                    abstract_text = self._clean_extracted_text(abstract_text)
-                    if len(abstract_text) > 50:  # Minimum length to be considered valid
-                        metadata['abstract'] = abstract_text
-                        break
-            except Exception as e:
-                if self.logger:
-                    self.logger.warning(f"Error with abstract pattern {pattern}: {str(e)}")
-                continue
-        
-        # Extract keywords - look for "Additional index words:" or similar
-        keywords_patterns = [
-            r'Additional index words:?\s*([^.]*?)(?=\.|$)',
-            r'Key\s*words?:?\s*([^.]*?)(?=\.|$)',
-            r'Keywords?:?\s*([^.]*?)(?=\.|$)'
-        ]
-        
-        for pattern in keywords_patterns:
-            keywords_match = re.search(pattern, text, re.IGNORECASE)
-            if keywords_match:
-                keywords_text = keywords_match.group(1).strip()
-                # Clean up keywords
-                keywords_text = re.sub(r'[Ll]\.$', '', keywords_text)  # Remove trailing L.
-                metadata['keywords'] = [k.strip() for k in keywords_text.split(',')]
-                break
-        
-        return metadata
+        try:
+            # Initialize metadata dictionary with default values
+            metadata = {
+                "title": "",
+                "authors": [],
+                "abstract": "",
+                "keywords": [],
+                "year": None
+            }
+            
+            # Simple extraction logic - this should be improved for production use
+            lines = text.split('\n')
+            
+            # Only process if we have content
+            if not lines or not isinstance(lines, list):
+                return metadata
+            
+            # Try to extract title (assuming it's in the first few lines)
+            for i in range(min(5, len(lines))):
+                if lines[i] and len(lines[i]) > 10 and lines[i].isupper():
+                    metadata["title"] = lines[i]
+                    break
+            
+            # Look for abstract
+            abstract_start = -1
+            abstract_end = -1
+            
+            for i in range(len(lines)):
+                line = lines[i].strip().lower()
+                if line.startswith("abstract"):
+                    abstract_start = i
+                elif abstract_start > -1 and line.startswith("introduction"):
+                    abstract_end = i
+                    break
+            
+            if abstract_start > -1 and abstract_end > -1:
+                metadata["abstract"] = " ".join(lines[abstract_start+1:abstract_end])
+            
+            # Extract year from text (simple regex approach)
+            year_matches = re.findall(r'\b(19|20)\d{2}\b', text)
+            if year_matches:
+                try:
+                    metadata["year"] = int(year_matches[0])
+                except:
+                    pass
+            
+            return metadata
+        except Exception as e:
+            if self.logger:
+                self.logger.error(f"Error extracting metadata: {str(e)}")
+            return {
+                "title": "",
+                "authors": [],
+                "abstract": "",
+                "keywords": [],
+                "year": None
+            }
     
     def extract_sections(self, text: str) -> List[Dict[str, str]]:
         """
@@ -278,4 +256,25 @@ class DataCleaner:
         # Clean up whitespace
         text = text.strip()
         
-        return text 
+        return text
+    
+    def chunk_documents(self, documents, chunk_size=1000, chunk_overlap=200):
+        """
+        Chunk documents into smaller pieces with meaningful overlap
+        
+        Args:
+            documents: List of documents to chunk
+            chunk_size: Size of each chunk
+            chunk_overlap: Overlap between chunks
+        
+        Returns:
+            List of chunked documents
+        """
+        text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=chunk_size,
+            chunk_overlap=chunk_overlap,
+            length_function=len,
+            separators=["\n\n", "\n", ". ", " ", ""]
+        )
+        
+        return text_splitter.split_documents(documents) 
