@@ -81,7 +81,7 @@ def main():
     
     # Save results
     output_file = processed_dir / 'processed_papers.json'
-    with open(output_file, 'w', encoding='utf-8') as f:
+    with open(output_file, 'w', encoding='utf-8', errors='ignore') as f:
         json.dump(all_results, f, indent=2, ensure_ascii=False)
     
     logger.info(f"Processing complete. Processed {len(all_results)} documents successfully")

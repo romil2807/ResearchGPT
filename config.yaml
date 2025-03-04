@@ -23,8 +23,9 @@ logging:
 
 models:
   # Local model settings instead of OpenAI
+  hf_token: "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"  # Your token here
   embedding_model: "sentence-transformers/all-mpnet-base-v2"
-  completion_model: "deepseek-ai/deepseek-coder-6.7b-instruct"
+  completion_model: "gpt2"  # Smaller, faster
   use_gpu: false
   max_tokens_per_chunk: 1000
   max_context_chunks: 3 

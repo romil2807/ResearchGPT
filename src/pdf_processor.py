@@ -73,14 +73,18 @@ class PDFProcessor:
         processed_docs = []
         
         for pdf_file in tqdm(pdf_files, desc="Processing PDFs"):
-            result = self.extract_text_from_pdf(pdf_file)
-            if result:
-                # Save individual text file
-                output_file = self.output_dir / f"{pdf_file.stem}.txt"
-                with open(output_file, 'w', encoding='utf-8') as f:
-                    f.write(result['text'])
-                
-                processed_docs.append(result)
+            try:
+                result = self.extract_text_from_pdf(pdf_file)
+                if result:
+                    # Save individual text file with UTF-8 encoding
+                    output_file = self.output_dir / f"{pdf_file.stem}.txt"
+                    with open(output_file, 'w', encoding='utf-8', errors='ignore') as f:
+                        f.write(result['text'])
+                    
+                    processed_docs.append(result)
+            except Exception as e:
+                if self.logger:
+                    self.logger.error(f"Error processing {pdf_file}: {str(e)}")
         
         return processed_docs
 

@@ -19,13 +19,17 @@ def process(config):
     # Initialize embeddings manager
     manager = EmbeddingsManager(config_data, logger)
     
-    # Load processed documents
-    with open(Path('data/processed/processed_papers.json'), 'r') as f:
-        docs = json.load(f)
-    
-    # Create embeddings
-    manager.create_embeddings(docs)
-    logger.info("Embeddings created successfully")
+    try:
+        # Load processed documents with UTF-8 encoding
+        with open(Path('data/processed/processed_papers.json'), 'r', encoding='utf-8', errors='ignore') as f:
+            docs = json.load(f)
+        
+        # Create embeddings
+        manager.create_embeddings(docs)
+        logger.info("Embeddings created successfully")
+    except Exception as e:
+        logger.error(f"Error processing documents: {str(e)}")
+        raise
 
 @cli.command()
 @click.option('--config', default='config.yaml', help='Path to config file')
