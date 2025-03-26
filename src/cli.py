@@ -60,17 +60,18 @@ def process(config):
 
 @cli.command()
 @click.option('--config', default='config.yaml', help='Path to config file')
+@click.option('--external-search/--no-external-search', default=True, help='Use external search')
 @click.argument('question')
-def query(config, question):
-    """Query the research papers"""
+def query(config, external_search, question):
+    """Query the research papers with optional external search"""
     config_data = ConfigManager.load_config(Path(config))
     logger = Logger.setup_logger()
     
     # Initialize embeddings manager
     manager = EmbeddingsManager(config_data, logger)
     
-    # Get answer
-    answer = manager.query(question)
+    # Get answer with or without external search
+    answer = manager.query(question, use_external_search=external_search)
     click.echo(answer)
 
 @cli.command()
@@ -83,9 +84,25 @@ def start(config):
     # Initialize embeddings manager
     manager = EmbeddingsManager(config_data, logger)
     
+    # Check if context awareness is enabled
+    context_enabled = config_data.get('context_awareness', {}).get('enabled', False)
+    
+    # Check if external search is enabled
+    search_enabled = config_data.get('external_search', {}).get('enabled', False)
+    
     click.echo(click.style("ResearchGPT Interactive Mode", fg="green", bold=True))
     click.echo(click.style("Type 'exit' or 'quit' to end the session", fg="yellow"))
     click.echo(click.style("Type 'help' for assistance", fg="yellow"))
+    if context_enabled:
+        click.echo(click.style("Context awareness is ENABLED. Type '/clear' to clear context history.", fg="blue"))
+    else:
+        click.echo(click.style("Context awareness is DISABLED.", fg="yellow"))
+    
+    if search_enabled:
+        click.echo(click.style("External search is ENABLED. Type '/search off' to disable.", fg="blue"))
+    else:
+        click.echo(click.style("External search is DISABLED. Type '/search on' to enable.", fg="yellow"))
+    
     click.echo("")
     
     history = []
@@ -104,7 +121,88 @@ def start(config):
             click.echo(click.style("ResearchGPT Help:", fg="blue", bold=True))
             click.echo("- Ask questions about the research papers in your database")
             click.echo("- Type 'exit' or 'quit' to end the session")
+            click.echo("- Type '/clear' to clear conversation context history")
+            click.echo("- Type '/context on' or '/context off' to toggle context awareness")
+            click.echo("- Type '/search on' or '/search off' to toggle external search")
+            click.echo("- Type '/google [query]' or '/ddg [query]' for direct web search")
             click.echo("- Your questions are answered based on the content of the papers")
+            continue
+            
+        # Check for clear context command
+        if user_input.lower() == '/clear':
+            if context_enabled:
+                manager.clear_context()
+                click.echo(click.style("Context history cleared.", fg="blue"))
+            else:
+                click.echo(click.style("Context awareness is not enabled.", fg="yellow"))
+            continue
+            
+        # Check for context toggle commands
+        if user_input.lower() in ['/context on', '/context off']:
+            enabled = user_input.lower() == '/context on'
+            # Update the config in memory
+            if 'context_awareness' not in config_data:
+                config_data['context_awareness'] = {}
+            config_data['context_awareness']['enabled'] = enabled
+            
+            # Update the manager's context manager
+            manager.context_manager.enabled = enabled
+            
+            # Also save to config file
+            config_file = Path(config)
+            ConfigManager.save_config(config_data, config_file)
+            
+            status = "ENABLED" if enabled else "DISABLED"
+            click.echo(click.style(f"Context awareness is now {status}.", fg="blue"))
+            continue
+            
+        # Check for external search toggle commands
+        if user_input.lower() in ['/search on', '/search off']:
+            enabled = user_input.lower() == '/search on'
+            # Update the config in memory
+            if 'external_search' not in config_data:
+                config_data['external_search'] = {}
+            config_data['external_search']['enabled'] = enabled
+            
+            # Update the manager's search manager
+            manager.toggle_external_search(enabled)
+            
+            # Also save to config file
+            config_file = Path(config)
+            ConfigManager.save_config(config_data, config_file)
+            
+            status = "ENABLED" if enabled else "DISABLED"
+            click.echo(click.style(f"External search is now {status}.", fg="blue"))
+            continue
+            
+        # Check for direct search commands
+        if user_input.lower().startswith('/ddg ') or user_input.lower().startswith('/google '):
+            # Extract search query
+            search_query = user_input.split(' ', 1)[1]
+            
+            click.echo(click.style(f"Searching for: {search_query}", fg="yellow"))
+            
+            # Set search engine based on command
+            if 'external_search' not in config_data:
+                config_data['external_search'] = {}
+                
+            if user_input.lower().startswith('/ddg '):
+                config_data['external_search']['search_engine'] = 'duckduckgo'
+            else:
+                config_data['external_search']['search_engine'] = 'google'
+                
+            # Enable search
+            config_data['external_search']['enabled'] = True
+            manager.toggle_external_search(True)
+            
+            # Perform search
+            search_results = manager.search_manager.search_and_format(search_query)
+            
+            if search_results:
+                click.echo(search_results)
+            else:
+                click.echo(click.style("No search results found.", fg="yellow"))
+                
             continue
             
         # Process the query
@@ -127,8 +225,80 @@ def start(config):
         except Exception as e:
             logger.error(f"Error in interactive mode: {str(e)}")
             click.echo(click.style(f"Error: {str(e)}", fg="red"))
+
+@cli.command()
+@click.option('--config', default='config.yaml', help='Path to config file')
+@click.option('--enable/--disable', default=True, help='Enable or disable context awareness')
+def context(config, enable):
+    """Enable or disable context awareness"""
+    config_data = ConfigManager.load_config(Path(config))
+    logger = Logger.setup_logger()
     
-    return
+    # Update config
+    if 'context_awareness' not in config_data:
+        config_data['context_awareness'] = {}
+    
+    config_data['context_awareness']['enabled'] = enable
+    
+    # Save config
+    config_file = Path(config)
+    ConfigManager.save_config(config_data, config_file)
+    
+    status = "enabled" if enable else "disabled"
+    logger.info(f"Context awareness {status}")
+    click.echo(f"Context awareness is now {status}")
+
+@cli.command()
+@click.option('--config', default='config.yaml', help='Path to config file')
+@click.option('--enable/--disable', default=True, help='Enable or disable external search')
+@click.option('--engine', type=click.Choice(['duckduckgo', 'google']), default='duckduckgo',
+              help='Search engine to use')
+def external_search(config, enable, engine):
+    """Configure external search settings"""
+    config_data = ConfigManager.load_config(Path(config))
+    logger = Logger.setup_logger()
+    
+    # Update config
+    if 'external_search' not in config_data:
+        config_data['external_search'] = {}
+    
+    config_data['external_search']['enabled'] = enable
+    config_data['external_search']['search_engine'] = engine
+    
+    # Save config
+    config_file = Path(config)
+    ConfigManager.save_config(config_data, config_file)
+    
+    status = "enabled" if enable else "disabled"
+    logger.info(f"External search {status} with engine {engine}")
+    click.echo(f"External search is now {status} using {engine}")
+
+@cli.command()
+@click.option('--config', default='config.yaml', help='Path to config file')
+@click.argument('query')
+def web_search(config, query):
+    """Perform a direct web search"""
+    config_data = ConfigManager.load_config(Path(config))
+    logger = Logger.setup_logger()
+    
+    # Ensure external search is enabled
+    if 'external_search' not in config_data:
+        config_data['external_search'] = {}
+        config_data['external_search']['enabled'] = True
+        config_data['external_search']['search_engine'] = 'duckduckgo'
+    
+    # Initialize search manager
+    from .external_search import ExternalSearchManager
+    search_manager = ExternalSearchManager(config_data, logger)
+    
+    # Perform search
+    click.echo(f"Searching for: {query}")
+    results = search_manager.search_and_format(query)
+    
+    if results:
+        click.echo(results)
+    else:
+        click.echo("No search results found.")
 
 if __name__ == '__main__':
     cli() 

@@ -53,6 +53,32 @@ class ConfigManager:
                 return yaml.safe_load(f)
         except Exception as e:
             raise RuntimeError(f"Error loading config file: {str(e)}")
+    
+    @staticmethod
+    def save_config(config: dict, config_path: Path) -> bool:
+        """
+        Save configuration to YAML file.
+        
+        Args:
+            config: Configuration dictionary to save
+            config_path: Path to save the configuration
+            
+        Returns:
+            True if successful, False otherwise
+        """
+        try:
+            # Create backup of existing config
+            if config_path.exists():
+                backup_path = config_path.with_suffix('.yaml.bak')
+                backup_path.write_text(config_path.read_text())
+            
+            # Save new config
+            with open(config_path, 'w') as f:
+                yaml.dump(config, f, default_flow_style=False, sort_keys=False)
+            return True
+        except Exception as e:
+            print(f"Error saving config file: {str(e)}")
+            return False
 
 class TextProcessingUtils:
     @staticmethod

@@ -17,6 +17,13 @@ import torch
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores.utils import filter_complex_metadata
 import re
+try:
+    from .context_manager import ContextManager
+    from .external_search import ExternalSearchManager
+except ImportError:
+    # For direct imports in some environments
+    from context_manager import ContextManager
+    from external_search import ExternalSearchManager
 
 class EmbeddingsManager:
     def __init__(self, config: dict, logger=None):
@@ -32,6 +39,12 @@ class EmbeddingsManager:
         
         # Initialize the actual embedding model
         self.initialize_embeddings()
+        
+        # Initialize context manager
+        self.context_manager = ContextManager(config, logger)
+        
+        # Initialize external search manager
+        self.search_manager = ExternalSearchManager(config, logger)
         
         # Try to load existing vectorstore
         try:
@@ -86,6 +99,9 @@ class EmbeddingsManager:
             chunk_size=models_config.get('max_tokens_per_chunk', 1000),
             chunk_overlap=200
         )
+        
+        # Try to load context manager state
+        self.context_manager.load_state()
 
     def create_embeddings(self, documents: List[Dict[str, Any]]):
         """Create embeddings for the documents."""
@@ -136,17 +152,48 @@ class EmbeddingsManager:
                 self.logger.error(f"Error creating embeddings: {str(e)}")
             raise
 
-    def query(self, question: str, k: int = 3):
-        """Query the vectorstore for relevant documents with better error handling."""
+    def query(self, question: str, k: int = 3, use_external_search: bool = True):
+        """Query the vectorstore for relevant documents with context awareness and external search."""
         try:
             # Get relevant documents directly
             docs = self.vectorstore.similarity_search(question, k=k)
             
-            # Format context from documents
-            context = "\n\n".join([doc.page_content for doc in docs])
+            # Perform external search if enabled
+            external_results = ""
+            if use_external_search and self.search_manager.enabled:
+                if self.logger:
+                    self.logger.info(f"Performing external search for: {question}")
+                external_results = self.search_manager.search_and_format(question)
             
-            # Create a simpler prompt
-            prompt = f"""You are a helpful research assistant. Answer the following question based on the provided context:
+            # Get context-aware prompt if enabled
+            if self.context_manager.enabled:
+                # Add the user's question to history
+                self.context_manager.add_to_history("user", question)
+                
+                # Get combined context
+                context = self.context_manager.build_combined_context(docs, question)
+                
+                # Add external search results if available
+                if external_results:
+                    context += "\n\n" + external_results
+                
+                # Create a context-aware prompt
+                prompt = f"""You are a helpful research assistant. Answer the following question based on the provided context:
+
+{context}
+
+Question: {question}
+
+Answer:"""
+            else:
+                # Use simple non-context aware prompt
+                context = "\n\n".join([doc.page_content for doc in docs])
+                
+                # Add external search results if available
+                if external_results:
+                    context += "\n\n" + external_results
+                
+                prompt = f"""You are a helpful research assistant. Answer the following question based on the provided context:
 
 Context:
 {context}
@@ -161,7 +208,15 @@ Answer:"""
                 response = self.pipeline(prompt, max_length=len(prompt.split()) + 300)[0]['generated_text']
                 # Extract only the answer part
                 answer = response.split("Answer:")[-1].strip()
-                return self.clean_generated_text(answer)
+                result = self.clean_generated_text(answer)
+                
+                # Add the answer to history if context awareness is enabled
+                if self.context_manager.enabled:
+                    self.context_manager.add_to_history("assistant", result)
+                    # Save context state
+                    self.context_manager.save_state()
+                
+                return result
             except Exception as e:
                 # If pipeline fails, fall back to a simpler approach
                 if self.logger:
@@ -173,6 +228,16 @@ Answer:"""
                     simple_response += f"Document {i+1}:\n"
                     simple_response += doc.page_content[:300] + "...\n\n"
                 
+                # Add external search results to the simple response if available
+                if external_results:
+                    simple_response += "\n" + external_results
+                
+                # Add the answer to history if context awareness is enabled
+                if self.context_manager.enabled:
+                    self.context_manager.add_to_history("assistant", simple_response)
+                    # Save context state
+                    self.context_manager.save_state()
+                
                 return simple_response
             
         except Exception as e:
@@ -180,17 +245,48 @@ Answer:"""
                 self.logger.error(f"Error querying: {str(e)}")
             return f"Error processing query: {str(e)}"
 
-    def chat_query(self, question: str, history=None, k: int = 3):
-        """Query with chat history context."""
+    def chat_query(self, question: str, history=None, k: int = 3, use_external_search: bool = True):
+        """Query with chat history context and external search."""
         try:
             # Get relevant documents
             docs = self.vectorstore.similarity_search(question, k=k)
             
-            # Format context from documents
-            context = "\n\n".join([doc.page_content for doc in docs])
+            # Perform external search if enabled
+            external_results = ""
+            if use_external_search and self.search_manager.enabled:
+                if self.logger:
+                    self.logger.info(f"Performing external search for: {question}")
+                external_results = self.search_manager.search_and_format(question)
             
-            # Create a chat-friendly prompt
-            prompt = f"""You are a helpful research assistant named ResearchGPT. Answer the following question based on the provided context from research papers. Be concise and informative.
+            # Add the user's question to history if context is enabled
+            if self.context_manager.enabled:
+                self.context_manager.add_to_history("user", question)
+                
+                # Get context-aware prompt
+                context = self.context_manager.build_combined_context(docs, question)
+                
+                # Add external search results if available
+                if external_results:
+                    context += "\n\n" + external_results
+                
+                # Create a context-aware chat prompt
+                prompt = f"""You are a helpful research assistant named ResearchGPT. Answer the following question based on the provided context:
+
+{context}
+
+User question: {question}
+
+ResearchGPT's answer:"""
+            else:
+                # Format context from documents (non-context-aware)
+                context = "\n\n".join([doc.page_content for doc in docs])
+                
+                # Add external search results if available
+                if external_results:
+                    context += "\n\n" + external_results
+                
+                # Create a regular chat prompt
+                prompt = f"""You are a helpful research assistant named ResearchGPT. Answer the following question based on the provided context from research papers. Be concise and informative.
 
 Context from research papers:
 {context}
@@ -199,29 +295,65 @@ User question: {question}
 
 ResearchGPT's answer:"""
             
-            # Generate response with error handling
+            # Generate response
             try:
                 response = self.pipeline(prompt, max_length=len(prompt.split()) + 300)[0]['generated_text']
                 # Extract only the answer part
                 answer = response.split("ResearchGPT's answer:")[-1].strip()
-                return self.clean_generated_text(answer)
+                result = self.clean_generated_text(answer)
+                
+                # Add the assistant's response to history if context is enabled
+                if self.context_manager.enabled:
+                    self.context_manager.add_to_history("assistant", result)
+                    # Save context state
+                    self.context_manager.save_state()
+                
+                return result
             except Exception as e:
                 if self.logger:
                     self.logger.warning(f"Pipeline generation failed: {str(e)}. Falling back to simple response.")
                 
-                # Create a simple response from the retrieved documents
+                # Create a simple response
                 simple_response = "Based on the research papers, I found the following information:\n\n"
                 for i, doc in enumerate(docs):
                     source = doc.metadata.get('filename', f'Document {i+1}')
                     simple_response += f"From {source}:\n"
                     simple_response += doc.page_content[:250] + "...\n\n"
                 
+                # Add external search results if available
+                if external_results:
+                    simple_response += "\n" + external_results
+                
+                # Add the assistant's response to history if context is enabled
+                if self.context_manager.enabled:
+                    self.context_manager.add_to_history("assistant", simple_response)
+                    # Save context state
+                    self.context_manager.save_state()
+                    
                 return simple_response
             
         except Exception as e:
             if self.logger:
                 self.logger.error(f"Error in chat query: {str(e)}")
             return f"I encountered an error while processing your question: {str(e)}"
+    
+    def clear_context(self):
+        """Clear the context history."""
+        if self.context_manager.enabled:
+            self.context_manager.clear_history()
+            self.context_manager.save_state()
+            if self.logger:
+                self.logger.info("Context history cleared")
+                
+    def toggle_external_search(self, enabled: bool):
+        """Toggle external search functionality."""
+        if self.search_manager:
+            self.search_manager.enabled = enabled
+            if self.logger:
+                status = "enabled" if enabled else "disabled"
+                self.logger.info(f"External search {status}")
+            return True
+        return False
 
     def initialize_embeddings(self):
         """Initialize the embeddings model"""
