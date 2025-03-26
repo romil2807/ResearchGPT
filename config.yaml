@@ -1,46 +1,42 @@
 processing:
-  # PDF processing settings
-  batch_size: 5  # Reduced for initial testing
+  batch_size: 5
   max_workers: 4
-  
 cleaning:
-  # Text cleaning settings
   remove_references: true
   remove_headers_footers: true
   min_line_length: 20
-  
 output:
-  # Output settings
   save_individual_files: true
-  output_format: "json"
+  output_format: json
   compress_output: false
-  
 logging:
-  # Logging settings
-  level: "INFO"
+  level: INFO
   log_to_file: true
-  log_dir: "logs"
-
+  log_dir: logs
 models:
-  # Local model settings instead of OpenAI
-  hf_token: "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"  # Your token here
-  embedding_model: "sentence-transformers/all-mpnet-base-v2"
-  completion_model: "gpt2"  # Smaller, faster
+  hf_token: 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
+  embedding_model: sentence-transformers/all-mpnet-base-v2
+  completion_model: gpt2
   use_gpu: false
   max_tokens_per_chunk: 1000
-  max_context_chunks: 3 
-
+  max_context_chunks: 3
 embeddings:
-  model: "huggingface"  # or "openai"
-  model_name: "BAAI/bge-large-en-v1.5"  # or "intfloat/e5-large-v2"
-  
+  model: huggingface
+  model_name: BAAI/bge-large-en-v1.5
 chunking:
   chunk_size: 1000
   chunk_overlap: 200
-  
 retrieval:
-  k: 5  # Number of documents to retrieve
-  
+  k: 5
 llm:
-  model_name: "gpt-3.5-turbo"  # or your preferred model
-  temperature: 0.3 
+  model_name: gpt-3.5-turbo
+  temperature: 0.3
+external_search:
+  enabled: false
+  search_engine: duckduckgo
+  max_results: 5
+  include_snippets: true
+  include_urls: true
+  safe_search: true
+  region: wt-wt
+  time_limit: 30
