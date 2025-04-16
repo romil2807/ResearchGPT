@@ -1,9 +1,9 @@
 import click
 from pathlib import Path
 import json
-from .embeddings_manager import EmbeddingsManager
-from .utils import ConfigManager, Logger
-from .pdf_processor import PDFProcessor
+from src.utils import ConfigManager, Logger
+from src.embeddings_manager import EmbeddingsManager
+from src.pdf_processor import PDFProcessor
 
 @click.group()
 def cli():

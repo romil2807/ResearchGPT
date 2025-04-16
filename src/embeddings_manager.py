@@ -85,7 +85,7 @@ class EmbeddingsManager:
             max_new_tokens=200,          # Reduced to avoid exceeding limits
             do_sample=True,              # Set to True to match temperature setting
             temperature=0.1,             # Keep temperature
-            top_p=0.9,                   # Slightly reduced
+            top_p=0.9,                # Slightly reduced
             repetition_penalty=1.2,      # Keep repetition penalty
             pad_token_id=self.tokenizer.eos_token_id,
             eos_token_id=self.tokenizer.eos_token_id

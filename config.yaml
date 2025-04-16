@@ -16,7 +16,7 @@ logging:
 models:
   hf_token: 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
   embedding_model: sentence-transformers/all-mpnet-base-v2
-  completion_model: gpt2
+  completion_model: microsoft/phi-2
   use_gpu: false
   max_tokens_per_chunk: 1000
   max_context_chunks: 3
